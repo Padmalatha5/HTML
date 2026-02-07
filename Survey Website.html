@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Templates</title>
+  <style>
+    body { font-family: Arial; margin: 0; }
+    header { background: darkslateblue; color: white; padding: 15px; text-align: center; }
+    nav { background: #333; padding: 12px; text-align: center; position: sticky; top: 0; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 30px; min-height: 90vh; }
+    h2 { color: darkslateblue; }
+    label { display: block; margin: 8px 0 4px; font-weight: bold; }
+    input, textarea, select, button {
+      width: 100%; padding: 10px; margin-bottom: 12px;
+      border: 1px solid #ccc; border-radius: 5px;
+    }
+    button { background: #333; color: white; cursor: pointer; }
+    button:hover { background: #555; }
+    /* Backgrounds */
+    #home { background: lightblue; }
+    #hotel { background: lightyellow; }
+    #ecommerce { background: lightpink; }
+    #student { background: lightgreen; }
+    #voter { background: lightcyan; }
+    #movie { background: lavender; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Feedback Templates</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#hotel">Hotel</a>
+  <a href="#ecommerce">E-commerce</a>
+  <a href="#student">Student</a>
+  <a href="#voter">Voter</a>
+  <a href="#movie">Movie</a>
+</nav>
+
+<!-- Home -->
+<section id="home">
+  <h2>Welcome</h2>
+  <p>Select a template from the navigation bar above.</p>
+  <ul>
+    <li>Hotel feedback</li>
+    <li>E-commerce product feedback</li>
+    <li>Student details submission</li>
+    <li>Voter list survey</li>
+    <li>Movie feedback</li>
+  </ul>
+</section>
+
+<!-- Hotel Feedback -->
+<section id="hotel">
+  <h2>Hotel Feedback</h2>
+  <form>
+    <label>Name:</label>
+    <input type="text" required>
+    <label>Rate Our Hotel:</label>
+    <select>
+      <option>Excellent</option>
+      <option>Good</option>
+      <option>Average</option>
+      <option>Poor</option>
+    </select>
+    <label>Comments:</label>
+    <textarea></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- E-commerce -->
+<section id="ecommerce">
+  <h2>E-commerce Product Feedback</h2>
+  <form>
+    <label>Product Name:</label>
+    <input type="text" required>
+    <label>Rate Product:</label>
+    <select>
+      <option>★★★★★</option>
+      <option>★★★★☆</option>
+      <option>★★★☆☆</option>
+      <option>★★☆☆☆</option>
+      <option>★☆☆☆☆</option>
+    </select>
+    <label>Your Review:</label>
+    <textarea></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- Student -->
+<section id="student">
+  <h2>Student Details Submission</h2>
+  <form>
+    <label>Student Name:</label>
+    <input type="text" required>
+    <label>Roll Number:</label>
+    <input type="text" required>
+    <label>Course:</label>
+    <input type="text">
+    <label>Email:</label>
+    <input type="email">
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- Voter -->
+<section id="voter">
+  <h2>Voter List Survey</h2>
+  <form>
+    <label>Full Name:</label>
+    <input type="text" required>
+    <label>Age:</label>
+    <input type="number" required>
+    <label>Do you have a Voter ID?</label>
+    <select>
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- Movie -->
+<section id="movie">
+  <h2>Movie Feedback</h2>
+  <form>
+    <label>Movie Name:</label>
+    <input type="text" required>
+    <label>Rate the Movie:</label>
+    <select>
+      <option>Excellent</option>
+      <option>Good</option>
+      <option>Average</option>
+      <option>Poor</option>
+    </select>
+    <label>Your Review:</label>
+    <textarea></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+</body>
+</html>
